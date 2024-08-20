@@ -1,0 +1,13 @@
+# This file contains model parameters in the IP-Glasms + diffractive + JIMWLK
+# format: parameter_name: label, min, max
+#IP-Glasma parameters
+m: m, 0.02, 2                           # the infrared cut-off mass (GeV)
+BG: BG, 1, 10                            # Gaussian width for quark positions (GeV^-2)
+BGq: BGq, 0.05, 3                         # the mean of Gaussian width for quark density profile (GeV^-2)
+smearingWidth: smearQsWidth, 0, 1.5      # the smearing width for Qs (GeV^-1)
+QsmuRatio: QsmuRatio, 0.05, 1.50           # the ratio between color charge density and saturation scale
+mjimwlk: mjimwlk, 0.02, 2
+Lambda_QCD: Lambda_QCD, 0.0001, 0.3
+UVdamp: UVdamp, 0.0, 1.0
+omega: omega, 0, 10.
+K: K, 0.1, 1.0

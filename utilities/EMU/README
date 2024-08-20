@@ -1,0 +1,7 @@
+With GeneratePKL.ipynb you can generate the training data and the file with the experimental data in pkl format. This has to be done first. Depending on what you want to do, you can skip some of the cells.
+
+Then you train the emulators with the corresponding pkl files in TrainAndSaveEmulator.ipynb. This will generate some .sav files with the trained emulator objects. After that you can use the RunMCMC_separate_emu.py file to run the MCMC with the right experimental data + cov matrix loaded in there.
+
+This will give you the chain and then you can useRunMCMC.ipynb  to make plots and extract the MAP
+
+
